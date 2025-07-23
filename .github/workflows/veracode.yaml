@@ -28,9 +28,10 @@ jobs:
 
       - name: Install Veracode SCA CLI
         run: |
-          curl -L -o veracode-sca.zip https://github.com/veracode/veracode-sca-cli/releases/latest/download/veracode-sca-linux64.zip
+          curl -L -o veracode-sca.zip https://github.com/veracode/veracode-sca-cli/releases/download/v2.1.1/veracode-sca-linux64.zip
           unzip veracode-sca.zip
           sudo mv veracode /usr/local/bin/
+
 
 
 
